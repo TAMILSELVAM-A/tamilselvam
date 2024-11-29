@@ -5,7 +5,9 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
-  SiNetlify
+  SiNetlify,
+  SiPycharm,
+  SiTensorflow
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -13,18 +15,19 @@ const Toolstack = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <p style={{ fontSize: '14px' }}>Visual Studio</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+        <p style={{ fontSize: '14px' }}>Postman</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiPycharm />
+        <p style={{ fontSize: '14px' }}>PyCharm</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiTensorflow />
+        <p style={{ fontSize: '14px' }}>Tensorflow</p>
       </Col>
     </Row>
   );

@@ -15,16 +15,13 @@ const Skillset = () => {
         <h1 className="project-heading">
           Professional <strong className="yellow">Skillset </strong>
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
           <strong className="yellow">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Leetcode />
-        <Github />
+        {/* <Leetcode /> */}
+        {/* <Github /> */}
       </Container>
     </Container>
   )

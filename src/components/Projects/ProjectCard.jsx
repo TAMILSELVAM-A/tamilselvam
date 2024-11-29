@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { SiKaggle } from "react-icons/si";
 
 const ProjectCard = (props) => {
   return (
@@ -20,7 +21,7 @@ const ProjectCard = (props) => {
         src={props.imgPath}
         alt="card-img"
         style={{
-          height: "200px",
+          height: "250px",
           objectFit: "contain",
           alignSelf: "flex-start",
           borderRadius: "10%",
@@ -35,7 +36,7 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+        <Card.Text style={{ textAlign: "justify", fontSize: "15px" }}>
           {props.description}
         </Card.Text>
         <Button
@@ -52,8 +53,8 @@ const ProjectCard = (props) => {
             bottom: "0px",
           }}
         >
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {props.isBlog ? <SiKaggle sx={{ fontSize: "16px" }} /> : <BsGithub />} &nbsp;
+          {props.isBlog ? "Kaggle" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
