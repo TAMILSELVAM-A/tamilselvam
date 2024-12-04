@@ -9,8 +9,6 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
-
-
 const About = () => {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -34,13 +32,13 @@ const About = () => {
               <br />
               <br />
               I am proficient in <b className="yellow">Python</b> and have knowledge in programming languages such as
-              <b className="yellow"> JavaScript</b> and <b className="yellow">REST API</b> .
+              <b className="yellow"> JavaScript</b> and <b className="yellow">REST API</b>.
               <br />
               <br />
               I have experience working with frameworks like <b className="yellow">Node.js </b>,
               <b className="yellow"> React.js </b>,
               <b className="yellow"> Flask</b>, and <b className="yellow">ExpressJS</b>, as well as libraries like
-              <b className="yellow">Scikit-learn, NumPy, Pandas</b> .
+              <b className="yellow">Scikit-learn, NumPy, Pandas</b>.
               <br />
               <br />
               I am also interested in developing new
@@ -50,6 +48,21 @@ const About = () => {
               and exploring areas related to <b className="yellow">Machine Learning</b>,
               such as predictive modeling, classification, and exploratory data analysis.
               <br />
+              <br />
+              <h3 className="yellow">Work Experience</h3>
+              <p>
+                <ul>
+                  <li>Utilized the <span className="yellow">Berry template</span> to design and implement the user interface of our project, enhancing the visual appeal and user experience with pre-designed components and layouts.</li>
+                  <li>Created visually appealing and user-friendly interfaces by integrating <span className="yellow">Material-UI</span> components, enhancing usability and improving the overall look and feel of the application.</li>
+                  <li>Collaborated with team members to design and implement <span className="yellow">RESTful API</span> endpoints using <span className="yellow">Node.js</span> and <span className="yellow">Express</span>, adhering to industry best practices and standards for web API development.</li>
+                  <li>Enhanced database performance and efficiency by optimizing queries and schema design in <span className="yellow">SQL</span> databases, facilitating smoother data storage and retrieval processes.</li>
+                </ul>
+              </p>
+              <br />
+              <h3 className="yellow">Projects</h3>
+              <p>
+                <a href="https://app.technofundainvesting.com/" target="_blank" rel="noreferrer"><b className="yellow">Dhruva</b></a> - A project built to a community based collaboration platform for stock market investing community.
+              </p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -104,7 +117,6 @@ const About = () => {
       </Container>
     </Container>
   );
-
 }
 
-export default About
+export default About;

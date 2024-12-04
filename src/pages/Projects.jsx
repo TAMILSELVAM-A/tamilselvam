@@ -8,7 +8,8 @@ import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 import Phisingurl from "../assets/projects/PHISINGURL.png";
 import BreastCancer from "../assets/projects/Breastcancer.png";
-import Terrorism from "../assets/projects/Terrorism.png"
+import Terrorism from "../assets/projects/Terrorism.png";
+import Dhruva from "../assets/projects/DHRUVA.png";
 
 const Projects = () => {
   return (
@@ -22,6 +23,19 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Dhruva}
+              isBlog={false}
+              title="Dhruva"
+              description="Dhruva is a community-based collaboration platform designed for stock market investors. 
+              It brings together a network of users to share insights, strategies, and resources related to stock market investing.It empowers investors to make informed decisions while fostering a supportive community focused on growth and knowledge sharing.
+              Built with React JS for the frontend, Material UI and Berry Template for an intuitive user interface, and Node.js with Express.js for the backend, Dhruva provides a seamless, data-driven experience for investors."
+              // ghLink="https://github.com/TAMILSELVAM-A/Phising-URL-Detection"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Phisingurl}

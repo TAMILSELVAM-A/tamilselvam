@@ -39,23 +39,25 @@ const ProjectCard = (props) => {
         <Card.Text style={{ textAlign: "justify", fontSize: "15px" }}>
           {props.description}
         </Card.Text>
-        <Button
-          variant="primary"
-          href={props.ghLink}
-          target="_blank"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            alignContent: "flex-end",
-            textAlign: "center",
-            position: "relative",
-            bottom: "0px",
-          }}
-        >
-          {props.isBlog ? <SiKaggle sx={{ fontSize: "16px" }} /> : <BsGithub />} &nbsp;
-          {props.isBlog ? "Kaggle" : "GitHub"}
-        </Button>
+        {props.ghLink &&
+          <Button
+            variant="primary"
+            href={props.ghLink}
+            target="_blank"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              alignContent: "flex-end",
+              textAlign: "center",
+              position: "relative",
+              bottom: "0px",
+            }}
+          >
+            {props.isBlog ? <SiKaggle sx={{ fontSize: "16px" }} /> : <BsGithub />} &nbsp;
+            {props.isBlog ? "Kaggle" : "GitHub"}
+          </Button>
+        }
         {"\n"}
         {"\n"}
 
