@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/tamilselvam/static/css/main.ceadac4f.css",
-    "main.js": "/tamilselvam/static/js/main.67b8423e.js",
+    "main.js": "/tamilselvam/static/js/main.2a79ac39.js",
     "static/media/kickstart.png": "/tamilselvam/static/media/kickstart.e27936ec3fc35c1b6808.png",
+    "static/media/DHRUVA.png": "/tamilselvam/static/media/DHRUVA.3086e81ebc60e9ae31ec.png",
     "static/media/krypto.png": "/tamilselvam/static/media/krypto.ca0e8bf963cc76cfe26c.png",
     "static/media/TAMIL_RESUME.pdf": "/tamilselvam/static/media/TAMIL_RESUME.b3861e5e924893b04908.pdf",
     "static/media/PHISINGURL.png": "/tamilselvam/static/media/PHISINGURL.b8ab9d983132f0c4ecfa.png",
@@ -17,10 +18,10 @@
     "static/media/pre.svg": "/tamilselvam/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/tamilselvam/index.html",
     "main.ceadac4f.css.map": "/tamilselvam/static/css/main.ceadac4f.css.map",
-    "main.67b8423e.js.map": "/tamilselvam/static/js/main.67b8423e.js.map"
+    "main.2a79ac39.js.map": "/tamilselvam/static/js/main.2a79ac39.js.map"
   },
   "entrypoints": [
     "static/css/main.ceadac4f.css",
-    "static/js/main.67b8423e.js"
+    "static/js/main.2a79ac39.js"
   ]
 }
